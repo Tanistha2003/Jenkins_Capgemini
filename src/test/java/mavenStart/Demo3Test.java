@@ -10,5 +10,6 @@ public class Demo3Test {
 	public void sample3Test() {
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://www.flipkart.com/");
+		driver.quit();
 	}
 }

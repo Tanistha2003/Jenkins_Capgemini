@@ -10,6 +10,7 @@ public class Demo1Test {
 	public void sample1Test(){
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://leetcode.com/");
+		driver.quit();
 	}
 
 }
