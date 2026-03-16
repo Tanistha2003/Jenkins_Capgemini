@@ -9,7 +9,7 @@ public class Demo1Test {
 	@Test
 	public void sample1Test(){
 		WebDriver driver=new ChromeDriver();
-		driver.get("https://leetcode.com/");
+		driver.get("https://github.com/");
 		driver.quit();
 	}
 
